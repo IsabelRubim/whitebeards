@@ -1,0 +1,59 @@
+form {
+  color: #336699;
+  font-size: 18px;
+  padding: 30px;
+  width: 298px;
+  margin: 0 auto;
+}
+input {
+  display: block;
+  font-size: 18px;
+  padding-left: 10px;
+  width: 275px;
+}
+button {
+  font-size: 24px;
+  color: #556b8e;
+}
+button:disabled {
+  color: #999999;
+}
+.header {
+  color: #336699;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 0;
+}
+.form-group {
+  margin: 10px;
+}
+.buttons {
+  text-align: right;
+  margin-right: 0px;
+}
+.save {
+  background-color: #ccddff;
+  border-color: #ccddff;
+}
+em {
+  float: right;
+  color: #e05c65;
+  padding-left: 10px;
+}
+.error input,
+.error select,
+.error textarea {
+  background-color: #e3c3c5;
+}
+.error ::-webkit-input-placeholder {
+  color: #999;
+}
+.error :-moz-placeholder {
+  color: #999;
+}
+.error ::-moz-placeholder {
+  color: #999;
+}
+.error :ms-input-placeholder {
+  color: #999;
+}
